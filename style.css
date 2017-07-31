@@ -1,0 +1,53 @@
+body {
+    background: #0d0d0d;
+}
+
+.first-container {
+    background: #0d0d0d;
+    text-align: center;
+    color: white;
+    font-family: 'Arvo', serif;
+    font-size: 100px;
+}
+
+.first-container-bold {
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    color: #80693D;
+    font-size: 100px;
+}
+
+.navbar-nav > li > a:hover {
+    background: green;
+    color: red;
+}
+
+.rigt-space {
+    margin-right: 10%;
+}
+
+.navbar-RC {
+    margin: 20px 0 0 0;
+    color: #80693D;
+    background: #0d0d0d;
+    border: none;
+}
+
+.second-Container {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.button-RC {
+    margin: 20px 0 150px 0;
+    width: 267px;
+    height: 55px;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    background: #80693D;
+    color: #ffffff;
+    word-spacing: 5px;
+}
