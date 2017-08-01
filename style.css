@@ -90,3 +90,36 @@ fifth-container {
 .sixth-container {
     background: black;
 }
+
+#Opinion {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.whiteText {
+    color: white;
+}
+
+.face {
+    border-radius: 35px;
+}
+
+.title {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top:;
+}
+
+#Clients {
+    background: #202020;
+}
+
+.table-contentRC table, th, td{
+    background: green;
+    border: 1px solid black;
+    border-top: none;
+}
+.oneTableContener{
+    margin: 5px;
+}
+.TableRC{
+
+}
