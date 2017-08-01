@@ -112,6 +112,7 @@ fifth-container {
 
 #Clients {
     background: #202020;
+    margin-bottom: 50px;
 }
 
 .table-contentRC table, th, td{
@@ -123,6 +124,12 @@ fifth-container {
 .oneTableContener{
     margin: 5px;
 }
-.TableRC{
+#PriceTable{
+    background: black;
+    padding-top: 5%;
+}
 
+.contact{
+    padding: 1%;
+    background: red
 }
