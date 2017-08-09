@@ -1,8 +1,8 @@
-$bgColorBlack: #161616;
+$bgColorBlackLight: #161616;
 $bgColorSiwy: #80693D;
 
 body {
-  background: $bgColorBlack;
+  background: $bgColorBlackLight;
 }
 
 p {
@@ -10,7 +10,7 @@ p {
 }
 
 .first-container {
-  background: $bgColorBlack;
+  background: $bgColorBlackLight;
   text-align: center;
   color: white;
   font-family: 'Arvo', serif;
@@ -31,7 +31,7 @@ p {
 .navbar-RC {
   margin: 20px 0 0 0;
   color: #ffffff;
-  background: $bgColorBlack;
+  background: $bgColorBlackLight;
   border: none;
   height: 70px;
 }
@@ -51,7 +51,6 @@ table {
 }
 
 .Table-RC {
-
   text-align: center;
   height: 150px;
   width: 80%;
@@ -67,21 +66,21 @@ table {
     margin: 10px;
     padding: 2%;
     border: solid black;
-    border-width: 10px 8px 8px 10px;
+    border-width: 6px 5px 5px 6px;
   }
   td {
     border: solid black;
-    border-width: 10px 8px 8px 10px;
-    background-color: $bgColorBlack;
+    border-width: 6px 5px 5px 6px;
     padding: 1%;
 
   }
+  tr:nth-child(n) {
+    background-color: $bgColorBlackLight;
+  }
+  tr:nth-child(2n) {
+    background-color: black;
+  }
 }
-
-tr:nth-child(even) {
-  background-color: #14568F
-}
-
 
 .button-RC {
   margin: 20px 0 150px 0;
@@ -157,10 +156,16 @@ fifth-container {
 }
 
 .contact {
-  padding: 1%;
-  background: red
+  margin-top: 2%;
+  background: black;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.marginAuto {
-
+#Footer {
+  letter-spacing: 1px;
+  line-height: 2;
+  border-top: solid whitesmoke 3px;
+  background-color: black;
 }

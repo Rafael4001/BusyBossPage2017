@@ -50,15 +50,15 @@ p {
     margin: 10px;
     padding: 2%;
     border: solid black;
-    border-width: 10px 8px 8px 10px; }
+    border-width: 6px 5px 5px 6px; }
   .Table-RC td {
     border: solid black;
-    border-width: 10px 8px 8px 10px;
-    background-color: #161616;
+    border-width: 6px 5px 5px 6px;
     padding: 1%; }
-
-tr:nth-child(even) {
-  background-color: #14568F; }
+  .Table-RC tr:nth-child(n) {
+    background-color: #161616; }
+  .Table-RC tr:nth-child(2n) {
+    background-color: black; }
 
 .button-RC {
   margin: 20px 0 150px 0;
@@ -122,5 +122,14 @@ fifth-container {
   margin-bottom: 50px; }
 
 .contact {
-  padding: 1%;
-  background: red; }
+  margin-top: 2%;
+  background: black;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto; }
+
+#Footer {
+  letter-spacing: 1px;
+  line-height: 2;
+  border-top: solid whitesmoke 3px;
+  background-color: black; }
