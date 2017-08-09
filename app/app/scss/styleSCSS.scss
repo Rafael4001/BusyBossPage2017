@@ -1,5 +1,8 @@
+$bgColorBlack: #161616;
+$bgColorSiwy: #80693D;
+
 body {
-  background: #161616;
+  background: $bgColorBlack;
 }
 
 p {
@@ -7,7 +10,7 @@ p {
 }
 
 .first-container {
-  background: #161616;
+  background: $bgColorBlack;
   text-align: center;
   color: white;
   font-family: 'Arvo', serif;
@@ -17,7 +20,7 @@ p {
 .first-container-bold {
   font-family: 'Arvo', serif;
   font-weight: bold;
-  color: #80693D;
+  color: $bgColorSiwy;
   font-size: 100px;
 }
 
@@ -28,7 +31,7 @@ p {
 .navbar-RC {
   margin: 20px 0 0 0;
   color: #ffffff;
-  background: #161616;
+  background: $bgColorBlack;
   border: none;
   height: 70px;
 }
@@ -38,6 +41,47 @@ p {
   font-size: 35px;
   text-align: center;
 }
+
+.pricetable {
+  background-color: black;
+}
+
+table {
+
+}
+
+.Table-RC {
+
+  text-align: center;
+  height: 150px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 4px;
+  color: #FFFFFF;
+
+  th {
+    text-align: center;
+    width: 30%;
+    background-color: $bgColorSiwy;
+    margin: 10px;
+    padding: 2%;
+    border: solid black;
+    border-width: 10px 8px 8px 10px;
+  }
+  td {
+    border: solid black;
+    border-width: 10px 8px 8px 10px;
+    background-color: $bgColorBlack;
+    padding: 1%;
+
+  }
+}
+
+tr:nth-child(even) {
+  background-color: #14568F
+}
+
 
 .button-RC {
   margin: 20px 0 150px 0;
@@ -59,7 +103,7 @@ p {
 
 .third-container-text {
   font-family: 'Source Sans Pro', sans-serif;
-  background: #80693D;
+  background: $bgColorSiwy;
   color: white;
   padding: 2% 8% 2% 8%;
   font-size: 120%;
@@ -78,7 +122,6 @@ fifth-container {
 }
 
 .fourth-container-text {;
-  /*text-align: right;*/
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
   padding: 2% 8% 2% 8%;
@@ -111,22 +154,6 @@ fifth-container {
 #Clients {
   background: #202020;
   margin-bottom: 50px;
-}
-
-.table-contentRC table, th, td {
-  background: green;
-  border: 4px solid black;
-  border-width: 10px 8px 8px 10px;
-  border-top: 20px;
-}
-
-.oneTableContener {
-  margin: 5px;
-}
-
-#PriceTable {
-  background: black;
-  padding-top: 5%;
 }
 
 .contact {
