@@ -1,0 +1,140 @@
+body {
+  background: #161616;
+}
+
+p {
+  text-indent: 35px;
+}
+
+.first-container {
+  background: #161616;
+  background: greenyellow;
+  text-align: center;
+  color: white;
+  font-family: 'Arvo', serif;
+  font-size: 100px;
+}
+
+.first-container-bold {
+  font-family: 'Arvo', serif;
+  font-weight: bold;
+  color: #80693D;
+  font-size: 100px;
+}
+
+.right-space {
+  margin-right: 10%;
+}
+
+.navbar-RC {
+  margin: 20px 0 0 0;
+  color: #ffffff;
+  background: #161616;
+  border: none;
+  height: 70px;
+}
+
+.second-Container {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+
+.button-RC {
+  margin: 20px 0 150px 0;
+  width: 267px;
+  height: 55px;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  background: #80693D;
+  color: #ffffff;
+  word-spacing: 5px;
+}
+
+.third-container-logo {
+  background: #0D0D0D;
+  height: 395px;
+}
+
+.third-container-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #80693D;
+  color: white;
+  padding: 2% 8% 2% 8%;
+  font-size: 120%;
+  line-height: 28px;
+  letter-spacing: 1px;
+  height: 395px;
+}
+
+.fourth-container {
+  background: black;
+}
+
+fifth-container {
+  background: #202020;
+  height: 395px;
+}
+
+.fourth-container-text {;
+  /*text-align: right;*/
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  padding: 2% 8% 2% 8%;
+  font-size: 120%;
+  line-height: 28px;
+  letter-spacing: 1px;
+  height: 395px;
+}
+
+.sixth-container {
+  background: black;
+}
+
+#Opinion {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.whiteText {
+  color: white;
+}
+
+.face {
+  border-radius: 35px;
+}
+
+.title {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#Clients {
+  background: #202020;
+  margin-bottom: 50px;
+}
+
+.table-contentRC table, th, td {
+  background: green;
+  border: 4px solid black;
+  border-width: 10px 8px 8px 10px;
+  border-top: 20px;
+}
+
+.oneTableContener {
+  margin: 5px;
+}
+
+#PriceTable {
+  background: black;
+  padding-top: 5%;
+}
+
+.contact {
+  padding: 1%;
+  background: red
+}
+
+.marginAuto {
+
+}
