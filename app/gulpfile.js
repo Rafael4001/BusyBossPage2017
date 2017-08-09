@@ -1,14 +1,33 @@
 const gulp = require('gulp'),
-    sass = require('gulp-sass');
+    sass = require('gulp-sass'),
+    browserSync = require('browser-sync').create();
 
-
+//metoda kontrolna do sprawdzenia poprawnosci dzialania gulp
 gulp.task('hello', function () {
     console.log('Hello Zell');
 });
 
-
-gulp.task('sass', function(){
+//zamienia SCSS na CSS
+gulp.task('sass', function () {
     return gulp.src('app/scss/styleSCSS.scss')
         .pipe(sass()) // Using gulp-sass
         .pipe(gulp.dest('app/css'))
+        .pipe(browserSync.reload({
+            stream: true
+        }))
+});
+
+//aktualizuje CSS po zmianie SCSS
+gulp.task('watch', ['browserSync', 'sass'], function (){
+    gulp.watch('app/scss/**/*.scss', ['sass']);
+    // Other watchers
+});
+
+//aktualizuje na bierzaco przegladarke
+gulp.task('browserSync', function () {
+    browserSync.init({
+        server: {
+            baseDir: 'app'
+        }
+    })
 });
