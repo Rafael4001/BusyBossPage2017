@@ -26,17 +26,15 @@
 <!--<body data-spy="scroll" data-target=".navbar" data-offset="100">-->
 
 <!--Przycisk powrotu-->
-<div class="buttonRepeatDiv">
-    <a data-scroll href="#Start">
-        <ul>
-            <li>
-                <div class="glyphicon glyphicon-arrow-up buttonRepeat">
-                </div>
-            </li>
-            <li>START</li>
-        </ul>
-    </a>
-</div>
+
+<!--<div class="buttonRepeatDiv ">-->
+    <!--<a data-scroll href="#Start ">-->
+        <!--<div class="glyphicon glyphicon-arrow-up buttonRepeat ">-->
+        <!--</div>-->
+        <!--START-->
+    <!--</a>-->
+<!--</div>-->
+
 
 <a id="Start"></a>
 <div id="NavBar">
@@ -54,7 +52,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">
+                <a data-scroll class="navbar-brand" href="#">
                     <img src="images/logo%20gora.png"
                          class="img-responsive col-lg-offset-5"></a>
             </div>
@@ -305,13 +303,11 @@
         selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
         speed: 200, // Integer. How fast to complete the scroll in milliseconds
         easing: 'easeInOutCubic', // Easing pattern to use
-        offset: 35, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
-        callback: function ( anchor, toggle ) {} // Function to run after scrolling
+        offset: 55, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+        callback: function (anchor, toggle) {
+        } // Function to run after scrolling
     });
 </script>
-
-
-
 
 
 </body>

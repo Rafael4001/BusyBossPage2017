@@ -5,6 +5,7 @@ p {
   text-indent: 35px; }
 
 .first-container {
+  margin-top: 90px;
   background: #161616;
   text-align: center;
   color: white;
@@ -144,9 +145,7 @@ fifth-container {
   opacity: 0.5; }
   .buttonRepeatDiv a:hover {
     text-decoration: none; }
-  .buttonRepeatDiv li {
-    list-style: none; }
 
 .buttonRepeat {
-  font-size: 2.5em;
+  font-size: 2em;
   color: #FFFFFF; }
