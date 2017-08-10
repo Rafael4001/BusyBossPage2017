@@ -21,6 +21,10 @@ p {
 .right-space {
   margin-right: 10%; }
 
+.logoNavRC {
+  background-color: red;
+  height: 154px; }
+
 .navbar-RC {
   padding-right: 5%;
   color: #ffffff;
@@ -29,17 +33,27 @@ p {
   .navbar-RC ul > li {
     margin: 10px; }
 
+.navHeightRC {
+  height: 11vh; }
+
 .elMenuRC a {
   color: #FFFFFF;
   border-bottom: solid;
-  padding-bottom: 3px;
   border-bottom-width: 1px;
-  padding-bottom: 2px; }
+  padding-bottom: 10px;
+  border-bottom-color: whitesmoke; }
 
 .elMenuRC a:hover {
-  color: white;
+  color: #dceff2;
+  border-bottom-color: #dceff2;
   text-decoration: none;
-  border-bottom-width: 4px; }
+  border-bottom-width: 2px; }
+
+.whiteText {
+  color: whitesmoke; }
+
+.textSizeRC {
+  font-size: large; }
 
 .second-Container {
   color: white;
