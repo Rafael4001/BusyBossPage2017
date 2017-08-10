@@ -23,7 +23,7 @@
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="100">
+<!--<body data-spy="scroll" data-target=".navbar" data-offset="100">-->
 
 <!--Przycisk powrotu-->
 <div class="buttonRepeatDiv">
@@ -40,7 +40,7 @@
 
 <a id="Start"></a>
 <div id="NavBar">
-    <nav class="navbar navbar-default navbar-RC">
+    <nav class="navbar navbar-default navbar-RC navbar-fixed-top">
 
         <div class="container-fluid">
 
@@ -298,6 +298,20 @@
 <script src="bootstrap/dist/js/bootstrap.min.js"></script>
 
 <!--Plynne przewijanie menu-->
+<script src="smooth-scroll-master/dist/js/smooth-scroll.js"></script>
+<script>
+    smoothScroll.init({
+        selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+        selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+        speed: 200, // Integer. How fast to complete the scroll in milliseconds
+        easing: 'easeInOutCubic', // Easing pattern to use
+        offset: 35, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+        callback: function ( anchor, toggle ) {} // Function to run after scrolling
+    });
+</script>
+
+
+
 
 
 </body>

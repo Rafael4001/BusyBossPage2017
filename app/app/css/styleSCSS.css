@@ -21,7 +21,7 @@ p {
   margin-right: 10%; }
 
 .navbar-RC {
-  margin: 20px 0 0 0;
+  margin: 0 0 0 0;
   color: #ffffff;
   background: #161616;
   border: none;
@@ -132,7 +132,8 @@ fifth-container {
   letter-spacing: 1px;
   line-height: 2;
   border-top: solid whitesmoke 3px;
-  background-color: black; }
+  background-color: black;
+  padding-bottom: 50px; }
 
 .buttonRepeatDiv {
   position: fixed;
