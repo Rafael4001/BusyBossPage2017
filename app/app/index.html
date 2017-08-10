@@ -3,9 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>BusyBoss</title>
+    <title>RC BusyBoss</title>
 
 
+    <!--przewijanie strony  PLynne-->
+
+
+    <!--JQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!--Fonts-->
@@ -19,11 +23,28 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
 
+<!--Przycisk powrotu-->
+<div class="buttonRepeatDiv">
+    <ul>
+
+        <li>
+            <a data-scroll href="#Start">
+                <div class="glyphicon glyphicon-arrow-up buttonRepeat">
+                </div>
+            </a>
+        </li>
+        <li>START</li>
+    </ul>
+</div>
+
+<a id="Start"></a>
 <div id="NavBar">
     <nav class="navbar navbar-default navbar-RC">
+
         <div class="container-fluid">
+
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -34,21 +55,23 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"> <img src="images/logo%20gora.png"
-                                                       class="img-responsive col-lg-offset-5"></a>
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo%20gora.png"
+                         class="img-responsive col-lg-offset-5"></a>
             </div>
 
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <div>
-                    <ul class="nav navbar-nav navbar-right right-space navbarRC-tekst">
-                        <li><a href="#O_aplikacji">O aplikacji <span class="sr-only">(current)</span></a></li>
-                        <li><a href="#Funkcjonalnosc">Funkcjonalność</a></li>
-                        <li><a href="#Opinie">Opinie</a></li>
-                        <li><a href="#Klienci">Klienci</a></li>
-                        <li><a href="#Cennik">Cennik</a></li>
-                        <li><a href="#Kontakt">Kontakt</a></li>
+                    <ul class="nav navbar-nav navbar-right navbar-RC ">
+                        <li><a data-scroll href="#O_aplikacji">O aplikacji <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li><a data-scroll href="#Funkcjonalnosc">Funkcjonalność</a></li>
+                        <li><a data-scroll href="#Opinie">Opinie</a></li>
+                        <li><a data-scroll href="#Klienci">Klienci</a></li>
+                        <li><a data-scroll href="#Cennik">Cennik</a></li>
+                        <li><a data-scroll data-scroll href="#Kontakt">Kontakt</a></li>
                     </ul>
                 </div>
 
@@ -274,6 +297,9 @@
 <!---------------------------------------JAVA SCRIPT scripts----------------------------------------------------->
 <script src="bootstrap/dist/js/bootstrap.js"></script>
 <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+
+<!--Plynne przewijanie menu-->
+
 
 </body>
 
