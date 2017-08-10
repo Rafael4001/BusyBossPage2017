@@ -22,11 +22,24 @@ p {
   margin-right: 10%; }
 
 .navbar-RC {
-  margin: 0 0 0 0;
+  padding-right: 5%;
   color: #ffffff;
   background: #161616;
-  border: none;
-  height: 70px; }
+  border: none; }
+  .navbar-RC ul > li {
+    margin: 10px; }
+
+.elMenuRC a {
+  color: #FFFFFF;
+  border-bottom: solid;
+  padding-bottom: 3px;
+  border-bottom-width: 1px;
+  padding-bottom: 2px; }
+
+.elMenuRC a:hover {
+  color: white;
+  text-decoration: none;
+  border-bottom-width: 4px; }
 
 .second-Container {
   color: white;
@@ -109,8 +122,15 @@ fifth-container {
 #Opinion {
   font-family: 'Source Sans Pro', sans-serif; }
 
-.whiteText {
-  color: white; }
+.text-white {
+  color: #FFFFFF; }
+  .text-white a {
+    color: greenyellow;
+    text-decoration: none; }
+  .text-white a:hover {
+    color: red;
+    text-decoration: none;
+    cursor: pointer; }
 
 .face {
   border-radius: 35px; }

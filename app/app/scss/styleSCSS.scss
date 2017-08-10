@@ -30,11 +30,34 @@ p {
 }
 
 .navbar-RC {
-  margin: 0 0 0 0;
+
+  padding-right: 5%;
   color: #ffffff;
   background: $bgColorBlackLight;
   border: none;
-  height: 70px;
+  //height: 70px;
+  ul > li {
+    margin: 10px;
+  }
+}
+
+.elMenuRC {
+  a {
+
+    color: #FFFFFF;
+    border-bottom: solid;
+    padding-bottom: 3px;
+    border-bottom-width: 1px;
+
+    padding-bottom: 2px;
+
+  }
+  a:hover {
+
+    color: white;
+    text-decoration: none;
+    border-bottom-width: 4px;
+  }
 }
 
 .second-Container {
@@ -135,8 +158,18 @@ fifth-container {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.whiteText {
-  color: white;
+.text-white {
+  color: #FFFFFF;
+  a {
+    color: greenyellow;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
 
 .face {
