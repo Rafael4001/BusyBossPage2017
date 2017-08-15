@@ -5,7 +5,7 @@ p {
   text-indent: 35px; }
 
 .first-container {
-  margin-top: 90px;
+  margin-top: 24vh;
   background: #161616;
   text-align: center;
   color: white;
@@ -34,7 +34,10 @@ p {
   background: #161616;
   border: none; }
   .navbar-RC ul > li {
-    margin: 0 10px 10px 10px; }
+    margin: 0 4ch 4ch 4ch; }
+
+.navbar-paddingTopRC {
+  padding-top: 50px; }
 
 .imageRC {
   height: 100%;
@@ -44,11 +47,11 @@ p {
   height: 55px; }
 
 .elMenuRC a {
-  color: #FFFFFF;
+  color: #CAAE92;
   border-bottom: solid;
   border-bottom-width: 1px;
   padding-bottom: 10px;
-  border-bottom-color: whitesmoke; }
+  border-bottom-color: #CAAE92; }
 
 .elMenuRC a:hover {
   color: #dceff2;
