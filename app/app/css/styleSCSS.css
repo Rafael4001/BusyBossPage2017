@@ -4,6 +4,9 @@ body {
 p {
   text-indent: 35px; }
 
+.fontRC {
+  font-family: 'Source Sans Pro', sans-serif; }
+
 .first-container {
   margin-top: 24vh;
   background: #161616;
@@ -190,15 +193,31 @@ fifth-container {
   padding-top: auto;
   padding-bottom: auto; }
 
-.buttonRepeatDiv {
+#buttonEnglish {
+  width: 10ch;
+  font-size: 1.2vh;
+  padding: 5px;
+  color: #80693D;
   position: fixed;
-  top: 90%;
-  left: 91%;
-  width: 50px;
-  height: 50px;
-  opacity: 0.5; }
-  .buttonRepeatDiv a:hover {
-    text-decoration: none; }
+  top: 20%;
+  left: 0%;
+  z-index: 10;
+  border: solid #80693D;
+  border-width: 1px 1px 1px 0;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition: width 5s; }
+  #buttonEnglish img {
+    width: 10px;
+    height: 10px;
+    padding-left: 2px;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-left: auto;
+    margin-right: auto; }
+
+#buttonEnglish:hover {
+  color: #81919f; }
 
 .buttonRepeat {
   font-size: 2em;

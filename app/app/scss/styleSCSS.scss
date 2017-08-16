@@ -10,6 +10,10 @@ p {
   text-indent: 35px;
 }
 
+.fontRC{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 .first-container {
   margin-top: 24vh;
   background: $bgColorBlackLight;
@@ -25,6 +29,8 @@ p {
   color: $bgColorSiwy;
   font-size: 100px;
 }
+
+
 
 .right-space {
   margin-right: 10%;
@@ -48,7 +54,6 @@ p {
   ul > li {
     margin: 0 3ch 0 3ch;
   }
-
 }
 
 .navbar-paddingTopRC {
@@ -242,20 +247,37 @@ fifth-container {
   padding-bottom: auto;
 }
 
-.buttonRepeatDiv {
+#buttonEnglish {
+  width: 10ch;
+  font-size: 1.2vh;
+  padding: 5px;
+  color: $bgColorSiwy;
   position: fixed;
-  top: 90%;
-  left: 91%;
-  //background: rgba(0, 0, 0, 0.2);
-  width: 50px;
-  height: 50px;
-  opacity: 0.5;
+  top: 20%;
+  left: 0%;
+  z-index: 10;
+  border: solid $bgColorSiwy;
+  border-width: 1px 1px 1px 0;
 
-  a:hover {
-    text-decoration: none;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition: width 5s;
+
+  img {
+    width: 10px;
+    height: 10px;
+    padding-left: 2px;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
-
 }
+
+#buttonEnglish:hover {
+  color: #81919f;
+}
+
 
 .buttonRepeat {
   font-size: 2em;
