@@ -9,7 +9,7 @@ gulp.task('hello', function () {
 
 //zamienia SCSS na CSS
 gulp.task('sass', function () {
-    return gulp.src('app/scss/styleSCSS.scss')
+    return gulp.src('app/scss/*.scss')
         .pipe(sass()) // Using gulp-sass
         .pipe(gulp.dest('app/css'))
         .pipe(browserSync.reload({
@@ -31,3 +31,4 @@ gulp.task('browserSync', function () {
         }
     })
 });
+

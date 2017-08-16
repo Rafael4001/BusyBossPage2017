@@ -63,7 +63,6 @@ p {
 
 .elMenuRC {
   a {
-
     color: #CAAE92;
     border-bottom: solid;
     border-bottom-width: 1px;
@@ -246,4 +245,13 @@ fifth-container {
   font-size: 2em;
   //font-size: 50px;
   color: #FFFFFF;
+}
+
+.test{
+  animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
