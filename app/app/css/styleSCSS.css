@@ -32,9 +32,10 @@ p {
   padding-right: 5%;
   color: #ffffff;
   background: #161616;
-  border: none; }
+  border: none;
+  margin: 0 0 2vh 0; }
   .navbar-RC ul > li {
-    margin: 0 4ch 4ch 4ch; }
+    margin: 0 3ch 0 3ch; }
 
 .navbar-paddingTopRC {
   padding-top: 50px; }
@@ -47,11 +48,11 @@ p {
   height: 55px; }
 
 .elMenuRC a {
-  color: #CAAE92;
+  color: #80693D;
   border-bottom: solid;
   border-bottom-width: 1px;
   padding-bottom: 10px;
-  border-bottom-color: #CAAE92; }
+  border-bottom-color: #80693D; }
 
 .elMenuRC a:hover {
   color: #dceff2;
@@ -124,6 +125,9 @@ p {
   letter-spacing: 1px;
   height: 395px; }
 
+.siwyKolor {
+  color: #80693D; }
+
 .fourth-container {
   background: black; }
 
@@ -143,8 +147,9 @@ fifth-container {
 .sixth-container {
   background: black; }
 
-#Opinion {
-  font-family: 'Source Sans Pro', sans-serif; }
+.opinionRC {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: black; }
 
 .text-white {
   color: #FFFFFF; }
@@ -163,8 +168,11 @@ fifth-container {
   font-family: 'Source Sans Pro', sans-serif; }
 
 #Clients {
-  background: #202020;
-  margin-bottom: 50px; }
+  padding-bottom: 50px;
+  padding-bottom: 30vh; }
+  #Clients h3 {
+    padding-top: 3vh;
+    padding-buttom: 20vh; }
 
 .contact {
   margin-top: 2%;
@@ -180,6 +188,10 @@ fifth-container {
   background-color: black;
   padding-bottom: 50px; }
 
+.partner {
+  padding-top: auto;
+  padding-bottom: auto; }
+
 .buttonRepeatDiv {
   position: fixed;
   top: 90%;
@@ -193,3 +205,6 @@ fifth-container {
 .buttonRepeat {
   font-size: 2em;
   color: #FFFFFF; }
+
+.imageRCauto {
+  width: auto; }

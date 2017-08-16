@@ -3,6 +3,7 @@ $bgColorSiwy: #80693D;
 
 body {
   background: $bgColorBlackLight;
+
 }
 
 p {
@@ -43,9 +44,11 @@ p {
   color: #ffffff;
   background: $bgColorBlackLight;
   border: none;
+  margin: 0 0 2vh 0;
   ul > li {
-    margin: 0 4ch 4ch 4ch;
+    margin: 0 3ch 0 3ch;
   }
+
 }
 
 .navbar-paddingTopRC {
@@ -63,11 +66,11 @@ p {
 
 .elMenuRC {
   a {
-    color: #CAAE92;
+    color: $bgColorSiwy;
     border-bottom: solid;
     border-bottom-width: 1px;
     padding-bottom: 10px;
-    border-bottom-color: #CAAE92;
+    border-bottom-color: $bgColorSiwy;
   }
   a:hover {
     color: #dceff2;
@@ -156,6 +159,10 @@ p {
   height: 395px;
 }
 
+.siwyKolor {
+  color: $bgColorSiwy;
+}
+
 .fourth-container {
   background: black;
 }
@@ -179,8 +186,9 @@ fifth-container {
   background: black;
 }
 
-#Opinion {
+.opinionRC {
   font-family: 'Source Sans Pro', sans-serif;
+  background-color: black;
 }
 
 .text-white {
@@ -206,8 +214,13 @@ fifth-container {
 }
 
 #Clients {
-  background: #202020;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
+  h3 {
+    padding-top: 3vh;
+    padding-buttom: 20vh;
+  }
+
+  padding-bottom: 30vh;
 }
 
 .contact {
@@ -224,6 +237,11 @@ fifth-container {
   border-top: solid whitesmoke 3px;
   background-color: black;
   padding-bottom: 50px;
+}
+
+.partner {
+  padding-top: auto;
+  padding-bottom: auto;
 }
 
 .buttonRepeatDiv {
@@ -247,11 +265,6 @@ fifth-container {
   color: #FFFFFF;
 }
 
-.test{
-  animation-name: example;
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+.imageRCauto {
+  width: auto;
 }
