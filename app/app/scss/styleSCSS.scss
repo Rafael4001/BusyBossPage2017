@@ -10,7 +10,7 @@ p {
   text-indent: 35px;
 }
 
-.fontRC{
+.fontRC {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -29,8 +29,6 @@ p {
   color: $bgColorSiwy;
   font-size: 100px;
 }
-
-
 
 .right-space {
   margin-right: 10%;
@@ -251,13 +249,14 @@ fifth-container {
   width: 10ch;
   font-size: 1.2vh;
   padding: 5px;
-  color: $bgColorSiwy;
+  color: whitesmoke;
+  background-color: $bgColorSiwy;
   position: fixed;
   top: 20%;
-  left: 0%;
+  left: 95%;
   z-index: 10;
   border: solid $bgColorSiwy;
-  border-width: 1px 1px 1px 0;
+  border-width: 1px;
 
   transition-duration: 2s;
   transition-timing-function: linear;
@@ -272,12 +271,12 @@ fifth-container {
     margin-left: auto;
     margin-right: auto;
   }
+
 }
 
 #buttonEnglish:hover {
   color: #81919f;
 }
-
 
 .buttonRepeat {
   font-size: 2em;

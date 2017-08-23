@@ -197,13 +197,14 @@ fifth-container {
   width: 10ch;
   font-size: 1.2vh;
   padding: 5px;
-  color: #80693D;
+  color: whitesmoke;
+  background-color: #80693D;
   position: fixed;
   top: 20%;
-  left: 0%;
+  left: 95%;
   z-index: 10;
   border: solid #80693D;
-  border-width: 1px 1px 1px 0;
+  border-width: 1px;
   transition-duration: 2s;
   transition-timing-function: linear;
   transition: width 5s; }
