@@ -3,11 +3,10 @@ $bgColorSiwy: #80693D;
 
 body {
   background: $bgColorBlackLight;
-
 }
 
 p {
-  text-indent: 35px;
+  text-indent: 20vh;
 }
 
 .fontRC {
@@ -191,6 +190,16 @@ p {
   margin-bottom: 10px;
 }
 
+.rigtImageFloat {
+  float: right;
+  margin-right: 5vw;
+}
+
+.imageOnTheRight {
+  float: left;
+  margin-left: 5vw;
+}
+
 .opinionRC {
   font-family: 'Source Sans Pro', sans-serif;
   background-color: black;
@@ -212,6 +221,7 @@ p {
 
 .face {
   border-radius: 35px;
+  margin-bottom: 2vh
 }
 
 .title {
@@ -219,13 +229,11 @@ p {
 }
 
 #Clients {
-  padding-bottom: 50px;
   h3 {
     padding-top: 3vh;
-    padding-buttom: 20vh;
+    padding-buttom: 60vh;
   }
-
-  padding-bottom: 30vh;
+  padding-bottom: 10vh;
 }
 
 .contact {
@@ -235,7 +243,6 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
-
 
 #Footer {
   letter-spacing: 1px;
@@ -247,7 +254,7 @@ p {
 
 .partner {
   padding-top: auto;
-  padding-bottom: auto;
+  padding-bottom: 2vh;
 }
 
 #buttonEnglish {

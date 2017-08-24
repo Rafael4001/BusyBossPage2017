@@ -2,7 +2,7 @@ body {
   background: #161616; }
 
 p {
-  text-indent: 35px; }
+  text-indent: 20vh; }
 
 .fontRC {
   font-family: 'Source Sans Pro', sans-serif; }
@@ -150,6 +150,14 @@ p {
 .imageNextToTheTextRC {
   margin-bottom: 10px; }
 
+.rigtImageFloat {
+  float: right;
+  margin-right: 5vw; }
+
+.imageOnTheRight {
+  float: left;
+  margin-left: 5vw; }
+
 .opinionRC {
   font-family: 'Source Sans Pro', sans-serif;
   background-color: black; }
@@ -165,17 +173,17 @@ p {
     cursor: pointer; }
 
 .face {
-  border-radius: 35px; }
+  border-radius: 35px;
+  margin-bottom: 2vh; }
 
 .title {
   font-family: 'Source Sans Pro', sans-serif; }
 
 #Clients {
-  padding-bottom: 50px;
-  padding-bottom: 30vh; }
+  padding-bottom: 10vh; }
   #Clients h3 {
     padding-top: 3vh;
-    padding-buttom: 20vh; }
+    padding-buttom: 60vh; }
 
 .contact {
   margin-top: 2%;
@@ -193,7 +201,7 @@ p {
 
 .partner {
   padding-top: auto;
-  padding-bottom: auto; }
+  padding-bottom: 2vh; }
 
 #buttonEnglish {
   width: 2em;
