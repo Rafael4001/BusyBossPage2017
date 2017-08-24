@@ -43,10 +43,6 @@ p {
 .navbar-paddingTopRC {
   padding-top: 50px; }
 
-.imageRC {
-  height: 100%;
-  width: 100%; }
-
 .navHeightRC {
   height: 55px; }
 
@@ -129,24 +125,30 @@ p {
 .siwyKolor {
   color: #80693D; }
 
-.fourth-container {
+#ROZMAWIA {
   background: black; }
 
-fifth-container {
-  background: #202020;
-  height: 395px; }
+#ZAJETY {
+  background: #202020; }
 
-.fourth-container-text {
+#ZAMOW_NAPOJ {
+  background: black; }
+
+#ZDEFINIUJ_KOMUNIKAT {
+  background: #202020; }
+
+.textNextToImageRC {
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
   padding: 2% 8% 2% 8%;
   font-size: 120%;
   line-height: 28px;
-  letter-spacing: 1px;
-  height: 395px; }
+  letter-spacing: 1px; }
+  .textNextToImageRC h2 {
+    color: #80693D; }
 
-.sixth-container {
-  background: black; }
+.imageNextToTheTextRC {
+  margin-bottom: 10px; }
 
 .opinionRC {
   font-family: 'Source Sans Pro', sans-serif;
@@ -194,14 +196,14 @@ fifth-container {
   padding-bottom: auto; }
 
 #buttonEnglish {
-  width: 10ch;
-  font-size: 1.2vh;
+  width: 2em;
+  font-size: 1.8vh;
   padding: 5px;
   color: whitesmoke;
   background-color: #80693D;
   position: fixed;
   top: 20%;
-  left: 95%;
+  left: 85%;
   z-index: 10;
   border: solid #80693D;
   border-width: 1px;
@@ -209,8 +211,8 @@ fifth-container {
   transition-timing-function: linear;
   transition: width 5s; }
   #buttonEnglish img {
-    width: 10px;
-    height: 10px;
+    width: 2em;
+    height: 5vh;
     padding-left: 2px;
     padding-top: auto;
     padding-bottom: auto;
@@ -218,11 +220,5 @@ fifth-container {
     margin-right: auto; }
 
 #buttonEnglish:hover {
-  color: #81919f; }
-
-.buttonRepeat {
-  font-size: 2em;
-  color: #FFFFFF; }
-
-.imageRCauto {
-  width: auto; }
+  color: #81919f;
+  background-color: rgba(154, 128, 68, 0.6); }

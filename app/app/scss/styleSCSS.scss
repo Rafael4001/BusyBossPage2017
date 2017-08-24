@@ -58,11 +58,6 @@ p {
   padding-top: 50px;;
 }
 
-.imageRC {
-  height: 100%;
-  width: 100%;
-}
-
 .navHeightRC {
   height: 55px;
 }
@@ -164,27 +159,36 @@ p {
   color: $bgColorSiwy;
 }
 
-.fourth-container {
+#ROZMAWIA {
   background: black;
 }
 
-fifth-container {
+#ZAJETY {
   background: #202020;
-  height: 395px;
 }
 
-.fourth-container-text {;
+#ZAMOW_NAPOJ {
+  background: black;
+}
+
+#ZDEFINIUJ_KOMUNIKAT {
+  background: #202020;
+}
+
+.textNextToImageRC {;
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
   padding: 2% 8% 2% 8%;
   font-size: 120%;
   line-height: 28px;
   letter-spacing: 1px;
-  height: 395px;
+  h2 {
+    color: $bgColorSiwy;
+  }
 }
 
-.sixth-container {
-  background: black;
+.imageNextToTheTextRC {
+  margin-bottom: 10px;
 }
 
 .opinionRC {
@@ -232,6 +236,7 @@ fifth-container {
   margin-right: auto;
 }
 
+
 #Footer {
   letter-spacing: 1px;
   line-height: 2;
@@ -246,14 +251,14 @@ fifth-container {
 }
 
 #buttonEnglish {
-  width: 10ch;
-  font-size: 1.2vh;
+  width: 2em;
+  font-size: 1.8vh;
   padding: 5px;
   color: whitesmoke;
   background-color: $bgColorSiwy;
   position: fixed;
   top: 20%;
-  left: 95%;
+  left: 85%;
   z-index: 10;
   border: solid $bgColorSiwy;
   border-width: 1px;
@@ -263,8 +268,8 @@ fifth-container {
   transition: width 5s;
 
   img {
-    width: 10px;
-    height: 10px;
+    width: 2em;
+    height: 5vh;
     padding-left: 2px;
     padding-top: auto;
     padding-bottom: auto;
@@ -276,14 +281,5 @@ fifth-container {
 
 #buttonEnglish:hover {
   color: #81919f;
-}
-
-.buttonRepeat {
-  font-size: 2em;
-  //font-size: 50px;
-  color: #FFFFFF;
-}
-
-.imageRCauto {
-  width: auto;
+  background-color: rgba(154, 128, 68, 0.6);
 }
