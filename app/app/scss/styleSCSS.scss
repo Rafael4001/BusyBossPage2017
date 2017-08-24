@@ -34,7 +34,7 @@ p {
 }
 
 .logoNavRC {
-  height: 52px;
+  //height: 52px;
   width: 184px;
   a {
     padding: 0;
@@ -42,19 +42,14 @@ p {
 }
 
 .navbar-RC {
-  padding: 10px;
   padding-right: 5%;
-  color: #ffffff;
   background: $bgColorBlackLight;
   border: none;
   margin: 0 0 2vh 0;
   ul > li {
     margin: 0 3ch 0 3ch;
   }
-}
-
-.navbar-paddingTopRC {
-  padding-top: 50px;;
+  padding-top: 10px;
 }
 
 .navHeightRC {
@@ -230,8 +225,8 @@ p {
 
 #Clients {
   h3 {
-    padding-top: 3vh;
-    padding-buttom: 60vh;
+    padding-top: 1vh;
+    padding-buttom: 5vh;
   }
   padding-bottom: 10vh;
 }
