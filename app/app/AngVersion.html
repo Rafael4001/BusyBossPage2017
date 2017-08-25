@@ -16,10 +16,6 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arvo:400,700" rel="stylesheet">
 
-    <!--CSS-->
-    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="css/styleSCSS.css">
-    <link rel="stylesheet" href="css/animationRC.css">
 
     <!--Animation FadeIn CSS-->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -28,6 +24,11 @@
 
     <script src="js/animationRC.js"></script>
 
+
+    <!--CSS-->
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/animationRC.css">
+    <link rel="stylesheet" href="css/styleSCSS.css">
 
     <!--FavIcona------------------------------------------------------------------------------>
     <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon.png">
@@ -44,18 +45,11 @@
 
 <body>
 
-<div CLASS="center-block">
-    <a href="index.html">
-        <div id="buttonEnglish" class="text-center">
-            POLSKI <img src="images/Polska.jpg" style="width: 30px">
-        </div>
-    </a>
-</div>
 
-
+<!---------------------------------MENU--------------------------------------->
 <a id="Start"></a>
 <div id="NavBar">
-    <nav class="navbar navbar-default navbar-RC navbar-fixed-top navbar-paddingTopRC ">
+    <nav class="navbar navbar-default navbar-RC navbar-fixed-top ">
 
         <div class="container-fluid navHeightRC ">
 
@@ -99,11 +93,27 @@
                             <span class="elMenuRC"><a data-scroll href="#Klienci">Clients</a></span>
                         </li>
                         <li>
-                            <span class="elMenuRC"><a data-scroll href="#Cennik">Price</a></span>
+                            <span class="elMenuRC"><a data-scroll href="#Cennik">Contact</a></span>
                         </li>
                         <li>
-                            <span class="elMenuRC"><a data-scroll href="#Kontakt">Contact</a></span>
                         </li>
+
+                        <li>
+                            <div class="elMenuRC changeLanguageButoon">
+                                <a href="index.html">
+                                    <div class="text-center">
+                                        <img src="images/Polska.jpg"> / <img src="images/Anglia-flaga1.svg">
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!--<div id="buttonEnglish">-->
+                            <!--
+                                <!--ENGLISH-->
+                            <!---->
+                            <!--</div>-->
+                        </li>
+
                     </ul>
                 </div>
 
@@ -112,10 +122,13 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
+
+
 </div>
+<!---------------------------------MENU-END--------------------------------------->
 
-
-<div>
+<!----------------------------------Ekran Główny-------------------------------------->
+<div id="container_1_Title">
     <div class="animationRC">
 
         <div class="row">
@@ -126,8 +139,9 @@
                 </div>
             </div>
         </div>
+
         <div class="row">
-            <div class="col-xs-12 center-block second-Container">
+            <div class="col-xs-12 center-block second-Container fontRC">
                 <span>APPLICATION, THAT PROVIDES <br>COMFORTABLE CONDITIONS FOR DECISION</span>
             </div>
         </div>
@@ -138,10 +152,11 @@
         <button class="button-RC">30 DAYS FREE</button>
     </div>
 </div>
+<!----------------------------------Ekran Główny-END--------------------------------------->
 
-
+<!---------------------------------O Aplikacji--------------------------------------->
 <a id="O_aplikacji"></a>
-<div class="row">
+<div id="container_2" class="row">
     <div class="col-xs-12 col col-md-6 text-center third-container-logo ">
         <img src="images/logo2.png">
     </div>
@@ -153,11 +168,12 @@
         <p>Sign your needs with the touch of the phone screen. Make work easier. Meet BusyBoss.</p>
     </div>
 </div>
+<!---------------------------------O Aplikacji-END--------------------------------------->
 
-
+<!---------------------------------Funkcjonalność--------------------------------------->
 <a id="Funkcjonalnosc"></a>
-<div class="row fourth-container">
-    <div class="col-xs-12 col col-md-6 fourth-container-text text-justify ">
+<div id="ROZMAWIA" class="row fourth-container">
+    <div class="col-xs-6 text-justify textNextToImageRC ">
         <h2 class="text-right siwyKolor">TALKS</h2>
         <br>
         <div>
@@ -169,17 +185,18 @@
                 important phone calls.</p>
         </div>
     </div>
-    <div class="col-xs-12 col-md-6 img-responsive fooRight">
-        <img src="images/tel1.png">
+    <div class="col-xs-6">
+        <img src="images/tel1.png" class="fooRight imageNextToTheTextRC imageOnTheRight">
     </div>
 </div>
 
-
-<div class="row fifth-container">
-    <div class=" col-xs-offset-1 col-xs-12  col-md-4 fooLeft ">
-        <img src="images/tel2.png" class="img-responsive">
+<div id="ZAJETY" class="row">
+    <div class="col-xs-6">
+        <div class="rigtImageFloat">
+            <img src="images/tel2.png" class="fooLeft imageNextToTheTextRC">
+        </div>
     </div>
-    <div class="col-xs-12 col col-md-6 fourth-container-text text-justify">
+    <div class="col-xs-6 text-justify textNextToImageRC ">
         <h2 class="siwyKolor">BUSY</h2>
         <br>
         <div>
@@ -192,9 +209,8 @@
     </div>
 </div>
 
-<div class="row sixth-container">
-
-    <div class="col-xs-12 col col-md-6 fourth-container-text text-justify ">
+<div id="ZAMOW_NAPOJ" class="row">
+    <div class="col-xs-6 text-justify textNextToImageRC ">
         <h2 class="text-right siwyKolor">ORDER A DRINK</h2>
         <br>
         <div>
@@ -207,17 +223,17 @@
                 important matters.</p>
         </div>
     </div>
-    <div class=" col-xs-offset-1 col-xs-12  col-md-4 fooRight ">
-        <img src="images/tel3.png" class="img-responsive">
+    <div class="col-xs-6  ">
+        <img src="images/tel3.png" class="fooRight imageNextToTheTextRC imageOnTheRight">
     </div>
 </div>
 
-
-<div class="row fifth-container">
-    <div class=" col-xs-offset-1 col-xs-12  col-md-4 fooLeft ">
-        <img src="images/tel4.png" class="img-responsive">
+<div id="ZDEFINIUJ_KOMUNIKAT" class="row">
+    <div class="col-xs-6  ">
+        <img src="images/tel4.png" class="rigtImageFloat fooLeft imageNextToTheTextRC">
     </div>
-    <div class="col-xs-12 col col-md-6 fourth-container-text text-justify">
+
+    <div class="col-xs-6 text-justify textNextToImageRC ">
         <h2 class="siwyKolor">DECLARE MESSAGE</h2>
         <br>
         <div>
@@ -230,15 +246,16 @@
     </div>
 
 </div>
+<!---------------------------------Funkcjonalność-END--------------------------------------->
+
 <a id="Opinie"></a>
 <div class="text-center whiteText opinionRC ">
     <div class="row ">
-        <div class="col-md-offset-1 col-md-10 col-xs-12 ">
-            <h3 class="text-left siwyKolor">
-                OPINIONS </h3>
+        <div class="col-xs-offset-1 col-xs-10  ">
+            <h3 class="text-left siwyKolor"> OPINIONS </h3>
             <br>
             <div class=" col-xs-12 col-md-4 whiteText textSizeRC text-justify">
-                <div class="fooUp text-center " style="margin-bottom: 2vh">
+                <div class="fooUp text-center ">
                     <img src="images/face1.png" class="face" alt="client1">
                 </div>
                 <p>
@@ -249,7 +266,7 @@
                 </p>
             </div>
             <div class=" col-xs-12 col-md-4 whiteText textSizeRC text-justify">
-                <div class="fooUp text-center" style="margin-bottom: 2vh">
+                <div class="fooUp text-center">
                     <img src="images/face2.png" class="face" alt="client2">
                 </div>
 
@@ -262,13 +279,11 @@
                 </p>
             </div>
             <div class=" col-xs-12 col-md-4 whiteText textSizeRC text-justify">
-                <div class="fooUp text-center" style="margin-bottom: 2vh">
+                <div class="fooUp text-center">
                     <img src="images/face3.png" class="face" alt="client3">
                 </div>
 
                 <p>In the end I do not have to stress that I will prevent the boss talking on the phone.
-                </p>
-                <p>
                     I know exactly when I can look into the office.
                 </p>
             </div>
@@ -278,10 +293,9 @@
 
 
 <a id="Klienci"></a>
-
-<div id="Clients" class=" text-center whiteText ">
+<div id="Clients" class="row text-center whiteText ">
     <div class="title">
-        <div class=" col-md-offset-1 col-md-10 col-xs-12 ">
+        <div class=" col-xs-offset-1 col-xs-10  ">
             <div class="row">
                 <h3 class="text-left siwyKolor"> CLIENTS</h3>
             </div>
@@ -305,26 +319,27 @@
 <a id="Cennik"></a>
 <div class="pricetable">
     <table class=" Table-RC ">
-        <th>STANDARD PACKAGE</th>
+        <th>PREMIUM PACKAGE</th>
         <th>PROFESSIONAL PACKAGE</th>
-        <th>PREMIUM PACKAGE </th>
+        <th>STANDARD PACKAGE</th>
 
         <tr>
-            <td>69 zł</td>
-            <td>129 zł</td>
             <td>399 zł</td>
+            <td>129 zł</td>
+            <td>69 zł</td>
         </tr>
 
         <tr>
-            <td>1 user</td>
-            <td>1 user</td>
             <td>Unlimited number of users</td>
+            <td>1 user</td>
+            <td>1 user</td>
+
         </tr>
 
         <tr>
+            <td>12 months</td>
+            <td>12 months</td>
             <td>6 months</td>
-            <td>12 months</td>
-            <td>12 months</td>
         </tr>
     </table>
 </div>
@@ -341,7 +356,7 @@
         </div>
         <div class=" col-md-4 col-xs-12  center-block">
             <div class="text-left ">
-                busy.boss.app@gmail.com.<br> phone. 503 00 44 92
+                busy.boss.app@gmail.com.<br> phone: 503 00 44 92
             </div>
         </div>
         <div class="col-md-4 col-xs-12">
@@ -364,7 +379,7 @@
         selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
         speed: 200, // Integer. How fast to complete the scroll in milliseconds
         easing: 'easeInOutCubic', // Easing pattern to use
-        offset: 120, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+        offset: 50, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
         callback: function (anchor, toggle) {
         } // Function to run after scrolling
     });
