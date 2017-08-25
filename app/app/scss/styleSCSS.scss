@@ -14,7 +14,7 @@ p {
 }
 
 .first-container {
-  margin-top: 24vh;
+  margin-top: 9vh;
   background: $bgColorBlackLight;
   text-align: center;
   color: white;
@@ -182,7 +182,8 @@ p {
 }
 
 .imageNextToTheTextRC {
-  margin-bottom: 10px;
+  margin-bottom: 35px;
+  margin-top: 35px;
 }
 
 .rigtImageFloat {
@@ -253,15 +254,15 @@ p {
 }
 
 #buttonEnglish {
-  width: 2em;
+  width: 50px;
   font-size: 1.8vh;
-  padding: 5px;
-  color: whitesmoke;
-  background-color: $bgColorSiwy;
+  //padding: 5px;
+  color: red;
+  background-color: whitesmoke;
   position: fixed;
-  top: 20%;
-  left: 85%;
-  z-index: 10;
+  top: 1%;
+  left: 90%;
+  z-index: 100000;
   border: solid $bgColorSiwy;
   border-width: 1px;
 
@@ -278,10 +279,33 @@ p {
     margin-left: auto;
     margin-right: auto;
   }
-
 }
 
 #buttonEnglish:hover {
   color: #81919f;
   background-color: rgba(154, 128, 68, 0.6);
+}
+
+
+.changeLanguageButoon{
+  //background-color: red;
+  //color: whitesmoke;
+  border: solid 1px rgba(154, 128, 68, 0.0);
+  //padding: 0.1em;
+  margin: 0;
+  a{
+    margin: 0;
+    padding: 0;
+  }
+  img{
+    width: 15px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.changeLanguageButoon:hover{
+  background-color: rgba(154, 128, 68, 0.2);
+  border-bottom: solid 1px whitesmoke;
 }
