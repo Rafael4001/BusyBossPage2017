@@ -199,6 +199,7 @@ p {
 .opinionRC {
   font-family: 'Source Sans Pro', sans-serif;
   background-color: black;
+  margin: 0;
 }
 
 .text-white {
@@ -229,7 +230,7 @@ p {
     padding-top: 1vh;
     padding-buttom: 5vh;
   }
-  padding-bottom: 10vh;
+  padding-bottom: 5vh;
 }
 
 .contact {
@@ -253,51 +254,14 @@ p {
   padding-bottom: 2vh;
 }
 
-#buttonEnglish {
-  width: 50px;
-  font-size: 1.8vh;
-  //padding: 5px;
-  color: red;
-  background-color: whitesmoke;
-  position: fixed;
-  top: 1%;
-  left: 90%;
-  z-index: 100000;
-  border: solid $bgColorSiwy;
-  border-width: 1px;
-
-  transition-duration: 2s;
-  transition-timing-function: linear;
-  transition: width 5s;
-
-  img {
-    width: 2em;
-    height: 5vh;
-    padding-left: 2px;
-    padding-top: auto;
-    padding-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-#buttonEnglish:hover {
-  color: #81919f;
-  background-color: rgba(154, 128, 68, 0.6);
-}
-
-
-.changeLanguageButoon{
-  //background-color: red;
-  //color: whitesmoke;
-  border: solid 1px rgba(154, 128, 68, 0.0);
-  //padding: 0.1em;
+.changeLanguageButoon {
+  border: solid 1px rgba(0, 0, 0, 0.0);
   margin: 0;
-  a{
+  a {
     margin: 0;
     padding: 0;
   }
-  img{
+  img {
     width: 15px;
     height: auto;
     padding: 0;
@@ -305,7 +269,7 @@ p {
   }
 }
 
-.changeLanguageButoon:hover{
-  background-color: rgba(154, 128, 68, 0.2);
+.changeLanguageButoon:hover {
   border-bottom: solid 1px whitesmoke;
+  color: rgba(154, 128, 68, 1);
 }
