@@ -1,0 +1,220 @@
+body {
+  background: #161616; }
+
+p {
+  text-indent: 3vw; }
+
+.fontRC {
+  font-family: 'Source Sans Pro', sans-serif; }
+
+.first-container {
+  margin-top: 9vh;
+  background: #161616;
+  text-align: center;
+  color: white;
+  font-family: 'Arvo', serif;
+  font-size: 100px; }
+
+.first-container-bold {
+  font-family: 'Arvo', serif;
+  font-weight: bold;
+  color: #80693D;
+  font-size: 100px; }
+
+.right-space {
+  margin-right: 10%; }
+
+.logoNavRC {
+  width: 184px; }
+  .logoNavRC a {
+    padding: 0; }
+
+.navbar-RC {
+  padding-right: 5%;
+  background: #161616;
+  border: none;
+  margin: 0 0 2vh 0;
+  padding-top: 10px; }
+  .navbar-RC ul > li {
+    margin: 0 3ch 0 3ch; }
+
+.navHeightRC {
+  height: 55px; }
+
+.elMenuRC a {
+  color: #80693D;
+  border-bottom-width: 1px;
+  padding-bottom: 10px;
+  border-bottom-color: #80693D; }
+
+.elMenuRC a:hover {
+  color: #dceff2;
+  border-bottom-color: #dceff2;
+  text-decoration: none; }
+
+.whiteText {
+  color: whitesmoke; }
+
+.textSizeRC {
+  font-size: large; }
+
+.second-Container {
+  color: white;
+  font-size: 35px;
+  text-align: center; }
+
+.pricetable {
+  background-color: black; }
+
+.Table-RC {
+  text-align: center;
+  height: 150px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 4px;
+  color: #FFFFFF; }
+  .Table-RC th {
+    text-align: center;
+    width: 30%;
+    background-color: #80693D;
+    margin: 10px;
+    padding: 2%;
+    border: solid black;
+    border-width: 6px 5px 5px 6px; }
+  .Table-RC td {
+    border: solid black;
+    border-width: 6px 5px 5px 6px;
+    padding: 1%; }
+  .Table-RC tr:nth-child(n) {
+    background-color: #161616; }
+  .Table-RC tr:nth-child(2n) {
+    background-color: black; }
+
+.button-RC {
+  margin: 20px 0 150px 0;
+  width: 267px;
+  height: 55px;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  background: #80693D;
+  color: #ffffff;
+  word-spacing: 5px; }
+
+.third-container-logo {
+  background: #0D0D0D;
+  height: 395px; }
+
+.third-container-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #80693D;
+  color: white;
+  padding: 2% 8% 2% 8%;
+  font-size: 120%;
+  line-height: 28px;
+  letter-spacing: 1px;
+  height: 395px; }
+
+.siwyKolor {
+  color: #80693D; }
+
+#ROZMAWIA {
+  background: black; }
+
+#ZAJETY {
+  background: #202020; }
+
+#ZAMOW_NAPOJ {
+  background: black; }
+
+#ZDEFINIUJ_KOMUNIKAT {
+  background: #202020; }
+
+.textNextToImageRC {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  padding: 2% 8% 2% 8%;
+  font-size: 120%;
+  line-height: 28px;
+  letter-spacing: 1px; }
+  .textNextToImageRC h2 {
+    color: #80693D; }
+
+.imageNextToTheTextRC {
+  margin-bottom: 35px;
+  margin-top: 35px; }
+
+.rigtImageFloat {
+  float: right;
+  margin-right: 5vw; }
+
+.imageOnTheRight {
+  float: left;
+  margin-left: 5vw; }
+
+.opinionRC {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: black;
+  margin: 0; }
+
+.text-white {
+  color: #FFFFFF; }
+  .text-white a {
+    color: greenyellow;
+    text-decoration: none; }
+  .text-white a:hover {
+    color: red;
+    text-decoration: none;
+    cursor: pointer; }
+
+.face {
+  border-radius: 35px;
+  margin-bottom: 2vh; }
+
+.title {
+  font-family: 'Source Sans Pro', sans-serif; }
+
+#Clients {
+  padding-bottom: 5vh; }
+  #Clients h3 {
+    padding-top: 1vh;
+    padding-buttom: 5vh; }
+
+.contact {
+  margin-top: 2%;
+  background: black;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto; }
+
+#Footer {
+  letter-spacing: 1px;
+  line-height: 2;
+  border-top: solid whitesmoke 3px;
+  background-color: black;
+  padding-bottom: 50px; }
+
+.partner {
+  padding-top: auto;
+  padding-bottom: 2vh; }
+
+.changeLanguageButoon {
+  border: solid 1px transparent;
+  margin: 0; }
+  .changeLanguageButoon a {
+    margin: 0;
+    padding: 0; }
+  .changeLanguageButoon img {
+    width: 30px;
+    height: auto;
+    padding: 0;
+    margin: 0; }
+
+.changeLanguageButoon:hover {
+  border-bottom: solid 1px whitesmoke;
+  color: #9a8044; }
+
+.flaga {
+  border-radius: 50%; }
